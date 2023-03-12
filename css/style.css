@@ -1,0 +1,72 @@
+body {
+    height: 1500px;
+}
+.header-wrapper {
+    width: 100%;
+}
+.s-1-wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 250px; 
+}
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+h1:hover {
+    transform: rotateY(180deg);
+}
+ul {
+    display: flex;
+    padding-top: 12.5px;
+}
+ul > li {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: all 0.15s;
+}
+ul > li:hover {
+    transform: scale(1.1);
+}
+
+ul > li:not(:last-child) {
+    margin-right: 150px;
+}
+li > a {
+    color: blue;
+}
+li > a:active {
+    color: red;
+}
+.active {
+    color: red;
+    text-decoration: underline;
+}
+.nav-bar {
+    display: none;
+    margin-left: 20px;
+}
+.burger {
+    font-size: 50px;
+    transition: all 0.15s;
+}
+.burger:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    ul {
+        display: none;
+    }
+    .nav-bar {
+        display: block;
+    }
+}
+@media (max-width: 424px) {
+    h1 {
+        font-size: 35px;
+    }
+    .burger {
+        font-size: 35px;
+    }
+}
